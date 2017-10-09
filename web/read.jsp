@@ -10,5 +10,7 @@
     <body>
         <h1>Kate's Family</h1>
         <%= table %>
+        <br><br>
+        <a href="add">Add a new family member</a>
     </body>
 </html>
