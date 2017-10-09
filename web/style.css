@@ -1,0 +1,31 @@
+/* color scheme
+#D2B48C (tan) 
+#F08080 (coral) 
+#FFFFFF (white) 
+#FFFF99 (yellow)
+#696969 (silver) 
+*/
+body{
+    background-color:#D2B48C;
+}
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+th, td{
+    border-bottom: 1px solid #696969;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #F2F2F2;
+}
+tr:hover{
+    background-color: #CCCCCC;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FFFF99;
+    color: #696969;
+}

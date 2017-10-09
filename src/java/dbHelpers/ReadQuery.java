@@ -61,7 +61,6 @@ public class ReadQuery {
     public String getHTMLtable(){
         
         String table = "";
-        table+= "<table border=1>";
         try {
             while(this.results.next()){
                 Family fam = new Family();
