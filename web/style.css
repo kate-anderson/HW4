@@ -5,27 +5,39 @@
 #FFFF99 (yellow)
 #696969 (silver) 
 */
-body{
-    background-color:#D2B48C;
+body{background-color:#D2B48C;}
+h1{
+    font-family: Helvetica;
+    color: #FFFF99;
+    text-align: center;
 }
-table{
+#family{
     border-collapse: collapse;
-    width:100%;
+    width:75%;
+    background-color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
 }
-th, td{
+#family th, #family td{
     border-bottom: 1px solid #696969;
     padding: 8px;
 }
-tr:nth-child(even){
+#family tr:nth-child(even){
     background-color: #F2F2F2;
 }
-tr:hover{
+#family tr:hover{
     background-color: #CCCCCC;
 }
-th{
+#family th{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #FFFF99;
-    color: #696969;
+    color: #F08080;
 }
+#family td{color: #696969;}
+.delete{
+    color: #F08080;
+    text-decoration: none;
+}
+.delete:hover{text-decoration: underline;}

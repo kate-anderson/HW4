@@ -60,7 +60,15 @@ public class ReadQuery {
     
     public String getHTMLtable(){
         
-        String table = "";
+        String table = "<table id=\"family\">"
+                + "<tr>"
+                + "<th>ID</th>"
+                + "<th>Name</th>"
+                + "<th>Age</th>"
+                + "<th>Birthday</th>"
+                + "<th>Relation</th>"
+                + "<th></th>"
+                + "</tr>";
         try {
             while(this.results.next()){
                 Family fam = new Family();
@@ -87,7 +95,7 @@ public class ReadQuery {
                 table += fam.getRelation();
                 table += "</td>";
                 table += "<td>";
-                table += "<a href= delete?familyID=" + fam.getFamilyID() + "> Delete </a>";
+                table += "<a href= delete?familyID=" + fam.getFamilyID() + " class=\"delete\"> Delete </a>";
                 table += "</td>";
                 table += "</tr>";
             }
