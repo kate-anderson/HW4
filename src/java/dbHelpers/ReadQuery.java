@@ -86,6 +86,9 @@ public class ReadQuery {
                 table += "<td>";
                 table += fam.getRelation();
                 table += "</td>";
+                table += "<td>";
+                table += "<a href= delete?familyID=" + fam.getFamilyID() + "> Delete </a>";
+                table += "</td>";
                 table += "</tr>";
             }
         } catch (SQLException ex) {
