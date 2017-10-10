@@ -11,6 +11,6 @@
         <h1>Kate's Family</h1>
         <%= table %>
         <br><br>
-        <a href="add">Add a new family member</a>
+        <a href="add" class='link'>Add a new family member</a>
     </body>
 </html>

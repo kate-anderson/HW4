@@ -41,3 +41,47 @@ h1{
     text-decoration: none;
 }
 .delete:hover{text-decoration: underline;}
+.addForm{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #FFFFFF;
+    color:#696969;
+}
+.addForm h1{
+    background: #FFFF99;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #F08080;
+    margin: -16px -16px 16px -16px;
+}
+.addForm input[type="text"]{
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    background: #FFFFFF;
+    margin-bottom: 4%;
+    border: 1px solid #696969;
+    padding: 3%;
+    color: #696969;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.addForm input[type="text"]:focus{
+    box-shadow: 0 0 5px #F08080;
+    padding: 3%;
+    border: 1px solid #F08080;
+}
+.addForm input[type="submit"]{
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid #FFFF99;
+    background-color: #FFFF99;
+    color: #F08080;
+}
+.link{
+    color: #FFFFFF;
+    text-decoration: none;
+}

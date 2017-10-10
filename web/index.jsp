@@ -9,6 +9,6 @@
     <body>
         <h1>Kate's Family Database</h1>
         
-        <a href="read">Meet the family!</a>
+        <a href="read" class='link'>Meet the family!</a>
     </body>
 </html>

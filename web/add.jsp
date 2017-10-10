@@ -4,11 +4,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Add a New Family Member</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
+        <div class="addForm">
         <h1>Add a New Family Member</h1>
         
-        <form name="addForm" action="addFamily" method="get">
+        <form name="addForm" action="addFamily" method="get" class='pure-form pure-form-aligned'>
             <label>Family Member's Name:</label>
             <input type='text' name="name" value=""/>
             <br>
@@ -23,5 +25,6 @@
             <br>
             <input type="submit" name='submit' value="Submit"/>
         </form>
+        </div>
     </body>
 </html>
