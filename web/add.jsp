@@ -10,7 +10,7 @@
         <div class="addForm">
         <h1>Add a New Family Member</h1>
         
-        <form name="addForm" action="addFamily" method="get" class='pure-form pure-form-aligned'>
+        <form name="addForm" action="addFamily" method="get">
             <label>Family Member's Name:</label>
             <input type='text' name="name" value=""/>
             <br>

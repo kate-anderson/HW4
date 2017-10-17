@@ -95,7 +95,7 @@ public class ReadQuery {
                 table += fam.getRelation();
                 table += "</td>";
                 table += "<td>";
-                table += "<a href= delete?familyID=" + fam.getFamilyID() + " class=\"delete\"> Delete </a>";
+                table += "<a href=update?familyID="+ fam.getFamilyID() + " class=\"delete\">Update </a>" + "<a href= delete?familyID=" + fam.getFamilyID() + " class=\"delete\"> Delete </a>";
                 table += "</td>";
                 table += "</tr>";
             }
