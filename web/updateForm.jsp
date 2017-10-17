@@ -15,7 +15,7 @@
         
         <form name="updateForm" action="updateFamily" method="get">
             <label>Family Member's ID:</label>
-            <input type='text' name="id" value="<%= fam.getFamilyID() %>"/>
+            <input type='text' name="id" value="<%= fam.getFamilyID() %>" readonly/>
             <br>
             <label>Family Member's Name:</label>
             <input type='text' name="name" value="<%= fam.getFamMemName() %>"/>
