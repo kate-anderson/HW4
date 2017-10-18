@@ -12,5 +12,7 @@
         <%= table %>
         <br><br>
         <a href="add" class='link'>Add a new family member</a>
+        <br>
+        <a href="search" class='link'>Search the family!</a>
     </body>
 </html>

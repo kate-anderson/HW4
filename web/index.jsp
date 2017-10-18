@@ -10,5 +10,7 @@
         <h1>Kate's Family Database</h1>
         
         <a href="read" class='link'>Meet the family!</a>
+        <br>
+        <a href="search" class='link'>Search the family!</a>
     </body>
 </html>
