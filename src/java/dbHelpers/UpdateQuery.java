@@ -46,12 +46,13 @@ public class UpdateQuery {
     
     public void doUpdate(Family fam){
         try {
-            String query = "UPDATE family SET famMemName = ?, age = ?, birthday = ?, relation = ?";
+            String query = "UPDATE family SET famMemName = ?, age = ?, birthday = ?, relation = ? WHERE familyID = ?";
             PreparedStatement ps = conn.prepareStatement(query);
             ps.setString(1, fam.getFamMemName());
             ps.setInt(2, fam.getAge());
             ps.setString(3, fam.getBirthday());
             ps.setString(4, fam.getRelation());
+            ps.setInt(5, fam.getFamilyID());
             
             ps.executeUpdate();
         } catch (SQLException ex) {
