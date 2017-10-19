@@ -7,10 +7,20 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <h1>Kate's Family Database</h1>
+        <div class="wrap"> <!-- div to hold all other divs -->
+            <%@ include file="includes/header.jsp" %>
+            <%@ include file="includes/menu.jsp" %>
+
+            <div class="main"> <!-- main div -->
+                <h1>Kate's Family Database</h1>
         
-        <a href="read" class='link'>Meet the family!</a>
-        <br>
-        <a href="search" class='link'>Search the family!</a>
+                <a href="read" class='link'>Meet the family!</a>
+                <br>
+                <a href="search" class='link'>Search the family!</a>
+                <br><br>
+            </div><!-- close main div -->
+            
+            <%@ include file="includes/footer.jsp" %>
+        </div><!-- close wrap div -->
     </body>
 </html>
