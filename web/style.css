@@ -6,17 +6,12 @@
 #696969 (silver) 
 */
 body{background-color:#D2B48C;}
-h1{
-    font-family: Helvetica;
-    color: #FFFF99;
-    text-align: center;
-}
 /* wrapper div that holds all of the content divs for the page */
 .wrap{
 	text-align:center; 
 	width:90%; 
 	margin:0 auto;
-	border:2px solid black;
+	border:2px solid #696969;
 	margin-top:25px;
 }
 
@@ -34,6 +29,11 @@ h1{
 	height:105px;
 	padding-top:50px;
 	padding-left:25px;
+}
+h1{
+    font-family: Helvetica;
+    color: #FFFF99;
+    text-align: center;
 }
 #family{
     border-collapse: collapse;
@@ -118,7 +118,7 @@ input[readonly]{background-color:#CCCCCC; }
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 40px;
-border-top: 1px solid #999;
+border-top: 1px solid #696969;
 z-index: 1;
 }
 
@@ -142,26 +142,26 @@ margin: 0 5px;
 #navcontainer li a
 {
 padding: 1px 7px;
-color: #666;
-background-color: #fff;
-border: 1px solid #ccc;
+color: #696969;
+background-color: #FFFFFF;
+border: 1px solid #696969;
 text-decoration: none;
 }
 
 #navcontainer li a:hover
 {
-color: #000;
-border: 1px solid #666;
-border-top: 2px solid #666;
-border-bottom: 2px solid #666;
+color: #F08080;
+border: 1px solid #F08080;
+border-top: 2px solid #F08080;
+border-bottom: 2px solid #F08080;
 }
 
 #navcontainer li a#current
 {
-color: #000;
-border: 1px solid #666;
-border-top: 2px solid #666;
-border-bottom: 2px solid #666;
+color: #F08080;
+border: 1px solid #F08080;
+border-top: 2px solid #F08080;
+border-bottom: 2px solid #F08080;
 }
 /* formats main page content */	
 .main{
@@ -172,4 +172,5 @@ border-bottom: 2px solid #666;
 .footer{
 	text-align:center;
 	padding:25px;
+        color:#FFFFFF;
 }

@@ -16,9 +16,6 @@
                 <h1>Kate's Family</h1>
                 <%= table %>
                 <br><br>
-                <a href="add" class='link'>Add a new family member</a>
-                <br>
-                <a href="search" class='link'>Search the family!</a>
             </div><!-- close main div -->
             
             <%@ include file="includes/footer.jsp" %>
